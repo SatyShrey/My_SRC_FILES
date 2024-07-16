@@ -1,0 +1,90 @@
+/*horizontally centered*/
+.hCenter{
+    width: fit-content;
+    margin: auto;
+}
+.dFlex{
+    display: flex;
+}
+
+/*text colors*/
+.white{
+    color: white;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.grey{
+    color: grey;
+}
+.navy{
+    color: rgb(11, 11, 114);
+}
+
+/*background colors*/
+.bgBlack{
+    background-color: black;
+}
+.bgSky{
+    background-color: rgb(61, 159, 220);
+}
+.bgRed{
+    background-color: rgb(222, 75, 72);
+}
+.bgGreen{
+    background-color: rgb(2, 157, 25);
+}
+.bgYellow{
+    background-color: rgb(227, 248, 0);
+}
+.bgNavy{
+    background-color:rgb(11, 11, 114);
+}
+
+/*buttons*/
+  .btn{
+        border-radius: 4px;
+        border: none;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+    .btn:active{
+        color:red;
+        box-shadow: black 0px 0px 4px;
+    }
+    .btn1{
+        min-width: 90px;
+        height: 40px;
+    }
+    .btn2{
+        min-width:70px;
+        height:35px;
+    }
+    .btn3{
+        min-width: 50px;
+        height: 30px;
+    }
+    .btn4{
+        min-width: 30px;
+        height: 20px;
+        font-size: small;
+    }
+/*rounded corner*/
+.rounded{
+    border-radius: 4px;
+}
+.round{
+    border-radius: 50%;
+}
+    
