@@ -1,0 +1,17 @@
+·p1{
+  justify-content: end;
+}
+·p2{
+  justify-content: end;
+}
+·p2,·p1{
+  display: flex;
+  justify-content: start;
+  align-item:center;
+  width:100%;
+}
+
+pre{
+ width:70%;
+ white-space:pre-wrap;
+}
