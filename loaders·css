@@ -8,6 +8,6 @@
 }
 @keyframes rotate{
    100%{
-      rotate:260deg;
+      rotate:360deg;
   }
 }
